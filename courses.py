@@ -1,0 +1,1 @@
+courses = {'MA': 'Matematik', 'SV': 'Svenska', 'EN': 'Engelska', 'TY': 'Tyska', 'HI': 'Historia', 'SA': 'Samhällskunskap', 'GE': 'Geografi', 'RE': 'Religion', 'BI': 'Biologi', 'KE': 'Kemi', 'TE': 'Teknik', 'FY': 'Fysik', 'IDH': 'Idrott', 'SL': 'Slöjd', 'BL': 'Bild', 'MU': 'Musik'}
