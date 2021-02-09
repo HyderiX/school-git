@@ -1,1 +1,2 @@
-courses = {'MA': 'Matematik', 'SV': 'Svenska', 'EN': 'Engelska', 'TY': 'Tyska', 'HI': 'Historia', 'SA': 'Samhällskunskap', 'GE': 'Geografi', 'RE': 'Religion', 'BI': 'Biologi', 'KE': 'Kemi', 'TE': 'Teknik', 'FY': 'Fysik', 'IDH': 'Idrott', 'SL': 'Slöjd', 'BL': 'Bild', 'MU': 'Musik'}
+courses = {'Handledartid':'HLD','SO-ämnen': 'SO','NO-ämnen':'NO', 'Matematik': 'MA', 'Svenska': 'SV', 'Engelska': 'EN', 'Moderna språk, språkval, Tyska': 'TY', 'Historia': 'HI', 'Samhällskunskap': 'SA', 'Geografi': 'GE', 'Religion': 'RE', 'Biologi': 'BI', 'Kemi': 'KE', 'Teknik': 'TE', 'Fysik': 'FY', 'Idrott och hälsa': 'IDH', 'Slöjd': 'SL', 'Bild': 'BL', 'Musik': 'MU'}
+#print({v: k for k, v in courses.items()})
