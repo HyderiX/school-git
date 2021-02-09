@@ -10,6 +10,8 @@ def load_student():
             classname = input("Enter you class name: ")
             with open("student.txt", "w") as f:
                 f.write(f"FIRSTNAME:{firstname}\nSURNAME:{surname}\nCLASSNAME:{classname}")
+        else:
+            return False
     with open('student.txt', 'r') as f:
         lines = f.readlines()
         read_firstname = lines[0].split(":")[1].strip()
