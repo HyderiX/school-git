@@ -42,7 +42,7 @@ def get_schedule():
         try:
             for day in days_str:
                 if lession.text.split('\n')[0].startswith(day):
-                    days[day].append((lession.text.split('\n')[0].replace(day+' ', ''), courses.courses[lession.text.split('\n')[1]]))
+                    days[day].append([lession.text.split('\n')[0].replace(day+' ', ''), courses.courses[lession.text.split('\n')[1]]])
             #print(lession.text.split('\n')[0])
             #print(courses.courses[lession.text.split('\n')[1]])
         except Exception as e:
