@@ -1,2 +1,2 @@
 courses = {'Handledartid':'HLD','SO-ämnen': 'SO','NO-ämnen':'NO', 'Matematik': 'MA', 'Svenska': 'SV', 'Engelska': 'EN', 'Moderna språk, språkval, Tyska': 'TY', 'Historia': 'HI', 'Samhällskunskap': 'SA', 'Geografi': 'GE', 'Religion': 'RE', 'Biologi': 'BI', 'Kemi': 'KE', 'Teknik': 'TE', 'Fysik': 'FY', 'Idrott och hälsa': 'IDH', 'Slöjd': 'SL', 'Bild': 'BL', 'Musik': 'MU'}
-#print({v: k for k, v in courses.items()})
+days = {"Måndag":"Mon", "Tisdag":"Tue", "Onsdag":"Wed", "Torsdag":"Thu", "Fredag":"Fri"}
