@@ -49,7 +49,7 @@ def get_schedule():
             print("_______")
             print(e)
             print("_______")
-    with open('schedulejson.txt', 'w') as f:
+    with open('schedulejson.json', 'w') as f:
         f.write(json.dumps(days))
     driver.close()
     return True
